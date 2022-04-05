@@ -1,13 +1,8 @@
 # maven-repository
 maven-repository
 
-    <repositories>
         <repository>
-            <id>maven-repository</id>
-            <url>https://raw.github.com/qinliaoming/maven-repository/master</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
+            <id>github</id>
+            <name>GitHub Carcinus Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/qinliaoming/maven-repository</url>
         </repository>
-    </repositories>
